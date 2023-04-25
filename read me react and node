@@ -1,0 +1,33 @@
+#Redux doesn't have a Dispatcher or support many stores. Instead, there is just a single store with a single root reducing function.
+#Store
+A store holds the whole state tree of your application. The only way to change the state inside it is to dispatch an action on it.
+#
+#Redux Thunk is middleware that allows you to return functions, rather than just actions, within Redux. This allows for delayed actions, including working with promises.
+#One of the main use cases for this middleware is for handling actions that might not be synchronous, for example, using axios to send a GET request. Redux Thunk allows us to dispatch those actions asynchronously and resolve each promise that gets returned.
+#
+#
+#
+#
+#
+#
+#
+#
+
+#
+#
+
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
